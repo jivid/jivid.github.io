@@ -1,188 +1,181 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="resume.css">
+  <link rel="stylesheet" href="revamped.css">
   <meta content="Divij Rajkumar's Resume" name="description">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
   <title>Divij Rajkumar - Resume</title>
-  <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-30285361-1']);
-  _gaq.push(['_setDomainName', 'divijrajkumar.com']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 
 <body>
-  <p style="font-size:28px;font-weight:500;border-bottom: 1px solid black;
-padding-bottom:10px;float:left">Divij Rajkumar</p>
-  <p style="font-size: 14px;float: right"><a href="mailto:divij@rjkmr.com">Email</a> | <a
-href="http://github.com/jivid">GitHub</a></p>
+  <div>
+  <p style="font-size:28px;width: 100%font-weight:500;border-bottom: 1px solid black;
+padding-bottom:10px;float:left">Divij Rajkumar <span style="font-size:12px; margin-left:300px;">   divij@rjkmr.com | facebook.com/div</span></p>
+  </div>
+  <div class="resume-work">
+    <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>Sequoia Capital</strong></p>
+        <p class="job-duration">Waterloo, ON</p>
+        <p class="job-duration">Jan - Present  2014</p>
+      </div>
 
-  <br>
-  <br>
-  <br>
+      <div class="content">
+        <p class="title">
+          <strong>Campus Scout </strong>
+        </p>
+        <div class="highlights">
+          <li>Represent Sequoia on campus and report on promising trends and companies</li>
+          <li>One of 11 students chosen from across North American schools; including MIT, Harvard and Stanford</li>
+        </div>
+      </div> 
+    </div>
 
-  <p style="font-size: 20px;">WORK</p>
+    <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>Twitter</strong></p>
+        <p class="job-duration">San Francisco, CA</p>
+        <p class="job-duration">Aug - Dec 2013</p>
+      </div>
+
+      <div class="content">
+        <p class="title">
+          <strong>Site Reliability Engineering Intern</strong>
+        </p>
+        <div class="highlights">
+          <li>Wrote an application to easily manage MySQL grants. Used by all engineers and DBAs</li>
+          <li>Co-ordinated security updates for over 1,000 servers and switches</li>
+          <li>Developed build scripts to help move core code away from a monolithic repository</li>
+        </div>
+      </div> 
+    </div>
+
+    <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>DraftingSPACE</strong></p>
+        <p class="job-duration">Waterloo, ON</p>
+        <p class="job-duration">Jan - Jul 2013</p>
+      </div>
+
+      <div class="content">
+        <p class="title">
+          <strong>Co-founder and Lead Developer</strong>
+        </p>
+        <div class="highlights">
+          <li>Website that aimed to make home renovation design accessible to everyone</li>
+          <li>Sole developer on product primarily built with Django and MySQL. Managed all server and database administration as well as internal DNS</li>
+        </div>
+      </div> 
+    </div>
+
+    <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>Facebook</strong></p>
+        <p class="job-duration">Menlo Park, CA</p>
+        <p class="job-duration">Aug - Dec 2012</p>
+      </div>
+
+      <div class="content">
+        <p class="title">
+          <strong>Software Engineering Intern</strong>
+        </p>
+        <div class="highlights">
+          <li>Wrote the foundation for Havoc, an automated framework for running ad-hoc regression tests and burn-in on servers</li>
+          <li>Delivered 11x increase in switch upgrade speed with the help of Python scripts</li>
+        </div>
+      </div> 
+    </div>
+
+    <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>Facebook</strong></p>
+        <p class="job-duration">Menlo Park, CA</p>
+        <p class="job-duration">Jan - Apr 2012</p>
+      </div>
+
+      <div class="content">
+        <p class="title">
+          <strong>Hardware Verification Intern</strong>
+        </p>
+        <div class="highlights">
+          <li>Deveoped a test infrastructure for Open Compute servers</li>
+          <li>Hackathon project: bicycle powered laptop charger</li>
+        </div>
+      </div> 
+    </div>
+
+    <!-- <div class="resume-entry">
+      <div class="metadata">
+        <p><strong>Conspec Controls</strong></p>
+        <p class="job-duration">Toronto, ON</p>
+        <p class="job-duration">May - Aug 2012</p>
+      </div>
+
+      <div class="content">
+        <p class="title">
+          <strong>Electrical Engineering Intern</strong>
+        </p>
+        <div class="highlights">
+          <li>Involved in the design and testing of a voltage regulating circuit for a gas composition detection system to be placed in coal and other mineral mines</li>
+        </div>
+      </div> 
+    </div> -->
+  </div> <!-- work -->
+ 
+  <div class="resume-skills"> 
+    <p class="heading">TECHNOLOGIES</p>
+    <li><strong>Languages: </strong>Python, Bash, C++, Java, Golang</li>
+    <li><strong>Web: </strong>Django, jQuery, Backbone.js</li>
+    <li><strong>Infrastructure: </strong>Ubuntu Server, Bind9 DNS, Docker, Puppet</li>
+    <li><strong>Other: </strong>Thrift, Mesos/Aurora, Zookeeper</li>
+    <li><strong>Want to learn: </strong>Network security, System scalability, UI/UX Design</li>
+  </div>
+
+  <div class="resume-projects">
+    <p class="heading">PROJECTS</p>
+
+    <p><strong>Server Administration</strong></p>
+    <ul>
+    <li>Manage private servers running a database cluster, multiple web applications and internal DNS</li>
+    <li>Use Docker to isolate web apps into containers. Puppet is used for config management</li>
+    <li>Small MySQL cluster of 1 master and 2 slaves with full replication also running in Docker</li>
+    <li>Self-managed Bind9 provides internal DNS for all the above</li>
+    </ul>
+
+    <p><strong>Network Simulator</strong></p>
+    <ul>
+      <li>Implements slightly modified Go-Back-N and ABP retransmission protocols and simulates transmission errors to compare performance of the two</li>
+      <li> Written in C++ for a Computer Networks course</li>
+    </ul>
+
+    <p><strong>WatPy - Waterloo Region Python group</strong></p>
+    <ul>
+    <li>Core Member. Organize and tutor sessions aimed at helping people learn Python</li>
+    <li>Currently preparing to teach a session on writing websites in Django</li>
+    </ul>
+
+
+    <p class="heading">OPEN SOURCE</p>
+    <p><strong>Ops School Curriculum</strong> (contributor)</p>
+    <ul>
+    <li>"Learn to be an Operations Engineer" guide (<a href="opsschool.org">opsschool.org</a>)</li>
+    <li>Wrote sections of Programming 101, Shell Tools 101 and Python 101</li>
+    </ul>
+
+    <p><strong>Mozilla</strong> (contributor)</p>
+    <ul>
+    <li>Fixed bugs #884828 and #857665 in Mozbase, a set of Python libraries for Mozilla</li>
+    <li>Implemented a timestamp feature for Heka, a data gathering tool written in Go</li>
+    </ul>
+
+  <p class="heading">EDUCATION</p>
   
-  <div style="width:100%;display:table;margin-top:-20px;">
-
-    <div style="width:160px;float:left">
-      <p><strong>Sequoia Capital</strong></p>
-      <img width="65px;" height="60px"src="Images/sequoia_logo.png">
-      <br>
-      <br>
-    </div>
-
-    <div style="width: 700px;">
-      <p><strong>Campus Scout</strong> | Jan-Present 2014</p>
-      <li>Represent Sequoia Capital on campus and provide reports on promising trends and upcoming companies</li>
-      <li>One of 11 students chosen from across North American schools like MIT, Harvard, Stanford and Waterloo</li>
-    </div>
-
-  </div>
-
-  <div style="width:100%;display:table">
-
-    <div style="width:160px;float:left">
-      <p><strong>Twitter</strong></p>
-      <img width="65px;" height="60px"src="Images/twitter-bird.png">
-      <br>
-      <br>
-    </div>
-
-    <div style="width: 700px;">
-      <p><strong>Site Reliability Engineering Intern</strong> | Aug-Dec 2013</p>
-      <li>Deployed critical security updates to over 1,000 servers and switches</li>
-      <li>Wrote an application to easily manage MySQL grants. Currently used by the entire engineering org</li>
-      <li>Developed build scripts to help move core code away from a monolithic repository</li>
-    </div>
-
-  </div>
-
-  <div style="width:100%;display:table">
-
-    <div style="width:160px;float:left">
-      <p><strong>DraftingSPACE</strong></p>
-      <img width="65px;" height="60px"src="Images/ds_logo.png">
-      <br>
-      <br>
-    </div>
-
-    <div style="width: 700px;">
-      <p><strong>Co-founder and Lead Developer</strong> | Jan-May 2013</p>
-      <li>Competition website for home renovation designs</li>
-      <li>Used Python + Django, Javascript, MySQL, Celery + RabbitMQ, Twitter
-Bootstrap and Rackspace to develop website and product</li>
-      <li>Raised $29,000 in funding as of April 2013</li>
-    </div>
-
-  </div>
-
-  <div style="width:100%;display:table">
-
-    <div style="width:160px;float:left">
-      <p><strong>Facebook</strong></p>
-      <img src="Images/facebook_logo.png">
-      <br>
-      <br>
-    </div>
-
-    <div style="width: 680px;">
-      <p><strong>Software Engineering Intern</strong> | Aug-Dec 2012</p>
-      <li>Wrote Havoc, an automated testing framework for server clusters: Written in Python, used Apache Thrift RPC framework and MySQL as a data store</li>
-      <li>Wrote Python scripts to help network switch upgrade speed by 11x/hour.</li>
-    </div>
-
-  </div>
-
-  <div style="width:100%;display:table">
-
-    <div style="width:160px;float:left">
-      <p><strong>Facebook</strong></p>
-      <img src="Images/facebook_logo.png">
-      <br>
-      <br>
-    </div>
-
-    <div style="width: 680px;">
-      <p><strong>Hardware Test Engineering Intern</strong> | Jan-Apr 2012</p>
-      <li>Developed a test infrastructure using Bash and Python scripts to
-automate the process of running tests on servers and parsing through logs to
-generate reports</li>
-      <li>Hackathon project: Built a bicycle-powered laptop charger</li>
-    </div>
-
-  </div>
-
-  <div style="width:100%;display:table">
-
-    <div style="width:160px;float:left">
-      <p><strong>Conspec Controls</strong></p>
-    </div>
-
-    <div style="width: 680px;">
-      <p><strong>Electrical Engineering Co-op</strong> | May-Aug 2011</p>
-    </div>
-
-  </div>
-
-  <p style="font-size: 20px;page-break-before:always">TECHNOLOGIES</p>
-  <ul style="line-height:150%">
-    <li><b>Languages: </b>Python, Bash, Ruby, Go</li>
-    <li><b>Data Stores: </b>MySQL, MongoDB, Hadoop</li>
-    <li><b>Web: </b>Django, Rails, jQuery, Bootstrap/Foundation frameworks</li>
-    <li><b>Other: </b>Apache Thrift, Apache Mesos/Aurora, Zookeeper</li>
-    <li><b>Want to learn: </b>Network security, System scalability, API
-development</li>
-  </ul>
-
-  <p style="font-size: 20px;">SIDE PROJECTS & OPEN SOURCE CONTRIBUTIONS</p>
-
-  <p><b>Server Administration</b></p>
+  <p><strong>University of Waterloo</strong></p>
   <ul>
-  <li>Manage private servers running a database cluster, multiple web
-applications and internal DNS</li>
-  <li>Use Docker to isolate web apps into containers. Puppet is used for config
-management</li>
-  <li>Small MySQL cluster of 1 master and 2 slaves with full replication also
-running in Docker</li>
-  <li>Self-managed Bind9 provides internal DNS for all the above
-applications</li>
-  </ul>
-
-  <p><b><a href="opsschool.org" style="text-decoration:none">opsschool.org</a>
-- Guide for operations engineers</b></p>
-  <ul>
-  <li>Wrote sections of Programming 101, Shell Tools 101 and Python 101</li>
-  </ul>
-
-  <p><b>Mozilla</b></p>
-  <ul>
-  <li>Fixed bugs #884828 and #857665 in the Mozilla Firefox build process</li>
-  <li>Implemented a timestamp feature for Mozilla Heka, a data gathering tool
-written in Go</li>
-  </ul>
-
-  <p><b>WatPy - Waterloo Region Python group</b></p>
-  <ul>
-  <li>Core Member. Help organize and tutor sessions to help people learn
-Python</li>
-  </ul>
-  <p style="font-size: 20px;">EDUCATION</p>
-  
-  <p><b>University of Waterloo</b> | Computer Engineering (2015 expected)</p>
-  <ul>
+    <li>3rd year Computer Engineering Student (Batch of 2015)</li>
     <li>Member of the Velocity residence and startup incubator</li>
   </ul>
 
+  </div>
 </body>
 </html>

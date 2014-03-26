@@ -1,0 +1,90 @@
+body {
+  font-family: Open Sans;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.resume {
+  margin-top: 50px;
+}
+
+.resume-entry {
+  height: 110px;
+  clear: both;
+}
+
+.resume-entry > .metadata {
+  height: auto;
+  float: left;
+  width: 140px;
+  padding-right: 10px;
+  padding-left: 3px;
+  font-size: 16px;
+}
+
+.resume-entry > .content {
+  height: auto;
+  width: 510px;
+  float: left;
+}
+
+.metadata > img {
+  height: 20px;
+  width: 20px;
+}
+
+.content > .title {
+  font-size: 16px;
+}
+
+.highlights > li {
+  margin: 0 0 5px 0;
+}
+
+.content > .highlights {
+  font-weight: 200;
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.job-duration {
+  font-weight: 200;
+  font-size: 13px;
+  margin-top: -10px;
+  font-style: italic;
+}
+
+.job-location {
+  font-weight: 200;
+  font-size: 13px;
+  margin-top: -10px;
+  font-style: italic;
+}
+
+.heading {
+  font-size: 18px;
+  border-bottom: 1px solid grey
+}
+
+.resume-skills li{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.resume-skills strong {
+  font-size: 16px;
+}
+
+.resume-projects {
+  page-break-before: always;
+}
+
+.resume-projects li {
+  font-size: 14px;
+  font-weight: 300;
+}
