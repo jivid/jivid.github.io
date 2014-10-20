@@ -52,14 +52,7 @@ strong {
   font-size: 13px;
 }
 
-.job-duration {
-  font-weight: 200;
-  font-size: 13px;
-  margin-top: -10px;
-  font-style: italic;
-}
-
-.job-location {
+.job-metadata {
   font-weight: 200;
   font-size: 13px;
   margin-top: -10px;
@@ -74,14 +67,6 @@ strong {
 .resume-skills li{
   font-weight: 300;
   font-size: 14px;
-}
-
-.resume-skills strong {
-  font-size: 16px;
-}
-
-.resume-projects {
-  page-break-before: always;
 }
 
 .resume-projects li {
