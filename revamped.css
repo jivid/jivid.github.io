@@ -73,3 +73,22 @@ strong {
   font-size: 14px;
   font-weight: 300;
 }
+
+.title-name {
+  font-size: 28px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.title-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.title-link+.title-link:before {
+  color: black;
+  content: '| ';
+}
