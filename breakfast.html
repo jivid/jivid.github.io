@@ -7,14 +7,31 @@
                 <title> What's for breakfast? </title>
                 <script type="text/javascript">
                         function genBreakfast() {
-                                choices = ["porridge", "oats upma", "lapsi upma", "poha", "moong dal chilla", "garari", "idli", "koki", "thepla", "cheese chutney sandwich", "malpuro", "puri tabata", "eggs", "scrambled tofu"];
+                                choices = [
+                                        "porridge",
+                                        "oats upma",
+                                        "lapsi upma",
+                                        "poha",
+                                        "moong dal chilla",
+                                        "garari",
+                                        "idli",
+                                        "koki",
+                                        "thepla",
+                                        "cheese chutney sandwich",
+                                        "malpuro",
+                                        "puri tabata",
+                                        "eggs",
+                                        "scrambled tofu"
+                                ];
                                 let field = document.getElementById("bfast-tmr");
                                 field.innerHTML = choices[Math.floor(Math.random()*choices.length)];
                         }
                 </script>
         </head>
         <body>
-                <button onclick="genBreakfast()"> What's for breakfast? </button>
-                <p id="bfast-tmr"></p>
+                <div style="padding: 2%">
+                        <button onclick="genBreakfast()"> What's for breakfast? </button>
+                        <p id="bfast-tmr"></p>
+                </div>
         </body>
 </html>
