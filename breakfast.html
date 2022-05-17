@@ -1,8 +1,20 @@
+<!doctype html>
 <html>
-  <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1> What's for breakfast?</h1>
-  </body>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+                <title> What's for breakfast? </title>
+                <script type="text/javascript">
+                        function genBreakfast() {
+                                choices = ["porridge", "oats upma", "lapsi upma", "poha", "moong dal chilla", "garari", "idli", "koki", "thepla", "cheese chutney sandwich", "malpuro", "puri tabata", "eggs", "scrambled tofu"];
+                                let field = document.getElementById("bfast-tmr");
+                                field.innerHTML = choices[Math.floor(Math.random()*choices.length)];
+                        }
+                </script>
+        </head>
+        <body>
+                <button onclick="genBreakfast()"> What's for breakfast? </button>
+                <p id="bfast-tmr"></p>
+        </body>
 </html>
